@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "mc-305535",
+	"version": "${version}",
+	"name": "MC 305535",
+	"description": "Restores elytra activation in lava using server-side jump input. No client mod required.",
+	"authors": [
+		"hanhy06"
+	],
+	"license": "Apache-2.0",
+	"icon": "assets/mc-305535/icon.png",
+	"environment": "*",
+	"mixins": [
+		"mc-305535.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": ">26.3",
+		"java": ">=25"
+	},
+	"contact": {
+		"sources": "https://github.com/hanhy06/mc-305535"
+	}
+}

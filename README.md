@@ -1,0 +1,1 @@
+Restores elytra activation in lava using server-side jump input. No client mod required.
